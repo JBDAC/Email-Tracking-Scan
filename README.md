@@ -24,6 +24,8 @@ Parameters
     -m, --max-unique-names: Sets the maximum number of unique image names to track. It takes an integer value and is useful for limiting the scope of the scan to avoid performance issues with large datasets.
 
     -i, --image-domain: When enabled, the scanner processes only images that come from a different domain than the sender's domain. This helps in focusing on third-party tracking pixels.
+    
+    -q, --quiet: Suppress progress messages. Useful when piping output to a text file.
 
 Example use
 ```
