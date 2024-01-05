@@ -68,7 +68,7 @@ proceed = input("Do you wish to proceed? (y/n): ").strip().lower()
 if proceed == 'y':
     if __name__ == '__main__':
         if len(sys.argv) != 6:
-            print("Usage: python script.py username password server mailbox output_file")
+            print("Usage: python DownloadIMAP.py username password server mailbox output_file")
         else:
             username = sys.argv[1]
             password = sys.argv[2]
